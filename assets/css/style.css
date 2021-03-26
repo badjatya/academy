@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header .nav1{
+    display:flex;
+    width: 100%;
+    background-color: #001C5D;
+    color: #fff;
+}
+
+.header .nav1 .navLinks,
+.header .nav1 .navIcons{
+    list-style: none;
+    display:flex;
+    margin-right: 20px;
+}
+
+.header .nav1 .navLinks li,
+.header .nav1 .navIcons li{
+    margin-right: 15px;
+}
+
+.header .nav1 .navLinks a,
+.header .nav1 .navIcons a{
+    text-decoration: none;
+    color: #fff;
+}
