@@ -31,17 +31,4 @@ body{
     text-decoration: none;
     color: #fff;
 }
-.section3{
-    background-color: #001C5D;
-}
-footer{
-    background-color: #151515;
-    color: #ffffff;
-}
-footercolumn1, footercolumn2, footercolumn3, footercolumn4{
-    width: 24%;
-    padding: 1%;
-}
-.footer{
-    display:flex;
-}
+
