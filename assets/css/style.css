@@ -31,3 +31,46 @@ body{
     text-decoration: none;
     color: #fff;
 }
+
+.header .nav2{
+    width: 100%;
+    padding: 10px;
+    display:flex;
+    margin-top: 20px;
+}
+
+.header .nav2 .navLinks{
+    list-style:none;
+    display:flex;
+}
+
+.header .nav2 .navLinks li{
+    margin-right: 30px;
+}
+
+.header .nav2 .navLinks li a{
+    text-decoration: none;
+    color: #001C5D;
+}
+
+.header .nav2 .navLinks li a.active{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #707070;
+}
+
+.header .nav2 .button{
+    background-color: #001C5D;
+    padding: 11px 30px;
+    height: 40px;
+}
+
+.header .nav2 .button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .nav2 .logo{
+    width: 200px;
+    height: 80px;
+    margin-left: 700px;
+}
